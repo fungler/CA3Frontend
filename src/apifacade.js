@@ -1,4 +1,4 @@
-const URL = "http://martindoi.dk/CA3";
+const URL = "https://martindoi.dk/CA3";
 function handleHttpErrors(res) {
     if (!res.ok) {
         return Promise.reject({ status: res.status, fullError: res.json() })
